@@ -1,0 +1,11 @@
+.green {
+    color: green;
+}
+
+#button:hover {
+    cursor: pointer;
+    color: rgb(247, 16, 16);
+}
+#button {
+    font-size: 50px;
+}
