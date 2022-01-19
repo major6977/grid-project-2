@@ -14,7 +14,7 @@
     <h2> The Man With The Plane</h2>
     <p id="story">Okay, Fine Man!</p>
 </div>
-    <button id="button" onclick="letsClick()">Click Here</button>
+    <button id="button" onclick="colorChange()">Click Here</button>
     
     
     
@@ -23,13 +23,24 @@
 // FUNCTIONS!!!!!!!!
 
 // 1. Make a function that changes the innerHTML of the h1 tag that has an id of nameText.
-
+       function change(){
+           document.getElementById('nameText').innerHTML = 'minor';
+       }
+       change();
 
 // 2. Make a function that changes the color of the text in the p tag that has an id of story.
+
+       function newColor(){
+           document.getElementById('story').style.color = 'green';
+       }
+       newColor();
 
 
 // 3. Make a function that changes the background color of the button tag above. Add an onclick event to the button that evokes this function.
 
+       function colorChange(){
+           document.getElementById('button').style.backgroundColor = 'orange';
+       }
 
 
 // 4. Make a function that creates two variables and initializes each variable to a different number. Next add those two numbers by using the variables created. Finally, print the total to the console.
@@ -56,12 +67,15 @@ function addTwoNums(){
             
             document.getElementById('story').innerHTML = "The total is: " + b;
         };
-        addTwoNums();
+        
 
         
 
 
 // 6. Add the function above to the button using onclick. Don't forget to comment out the 'calling' of the function above.
+
+    
+
 
 
 
@@ -115,6 +129,8 @@ function addTwoNums(){
 // 11. Create a variable called num1 and make it equal to 8.
 
         // let num1 = 8;
+
+
 
 
 // 12. Create a variable called num2 and make it equal to 6.
