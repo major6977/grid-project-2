@@ -8,16 +8,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="allGreen">
     <h1 id="nameText">My name is: </h1>
-    <h2 class="love">Lorem, ipsum dolor.</h2>
+    <h2 class="love">Fire Man!!.</h2>
     <h2> The Man With The Plane</h2>
     <p id="story">Okay, Fine Man!</p>
-    <button id="button" onclick="clickMe()">Click Here</button>
+</div>
+    <button id="button" onclick="letsClick()">Click Here</button>
     
     
     
     <script>
 
+// FUNCTIONS!!!!!!!!
+
+// 1. Make a function that changes the innerHTML of the h1 tag that has an id of nameText.
+
+
+// 2. Make a function that changes the color of the text in the p tag that has an id of story.
+
+
+// 3. Make a function that changes the background color of the button tag above. Add an onclick event to the button that evokes this function.
+
+
+
+// 4. Make a function that creates two variables and initializes each variable to a different number. Next add those two numbers by using the variables created. Finally, print the total to the console.
+
+function addNums(){
+            let x = 3;
+            let y = 5;
+            let b = x + y;
+            
+            console.log('total = ', b);
+        };
+
+        addNums();
+
+
+
+// 5. Make a function that creates 3 variables. The first two variables should be initialized to any numbers you like. The third variable should contain the sum of the first two variables. Change the innerHTML of the p tage to the following "The total is: " concatenate (add) the third variable here so that it will display the total of variables one and two. Finally, call the function.
+
+
+function addTwoNums(){
+            let x = 3;
+            let y = 5;
+            let b = x + y;
+            
+            document.getElementById('story').innerHTML = "The total is: " + b;
+        };
+        addTwoNums();
+
+        
+
+
+// 6. Add the function above to the button using onclick. Don't forget to comment out the 'calling' of the function above.
 
 
 
@@ -27,11 +71,11 @@
 
 // 2. Change the innerHTML  of the h1 tag to any sentence you like.
 
-        document.getElementsByTagName('h1')[0].innerHTML = 'What The Hell';
+        // document.getElementsByTagName('h1')[0].innerHTML = 'What The Hell';
 
 // 3. Change the innerHTML  of the p tag to any sentence you like.
 
-       document.getElementById('story').innerHTML = 'Okay, Fine Man!';
+    //    document.getElementById('story').innerHTML = 'Okay, Fine Man!';
 
 
 
@@ -41,23 +85,23 @@
 
 
 // 5. Change the innerHTML  of the p tag to 'On Sale'.
-        // document.getElementById('story').innerHTML = 'On Sale';
+        // document.getElementById('love').innerHTML = 'Okay, Fine Man!';
 
 
 
 
 // 6. Create a variable called pText and make it equal to the p tag id.
 
-        let pText = document.getElementById('story');
+        // let pText = document.getElementById('story');
 
 // 7. Create a variable called h1Text and make it equal to the h1 tag id.
 
-        let h1Text = document.getElementById('story');
+        //  let h1Text = document.getElementById('story');
 
 
 // 8. Create a variable called h2Text and make it equal to the h2 tag.
 
-        let h2Text = document.getElementsByTagName('h2')[0];
+        // let h2Text = document.getElementsByTagName('h2')[0];
 
 // 9. Create a variable called h2Text and make it equal to the h2 tag class.
 
@@ -70,55 +114,55 @@
 
 // 11. Create a variable called num1 and make it equal to 8.
 
-        let num1 = 8;
+        // let num1 = 8;
 
 
 // 12. Create a variable called num2 and make it equal to 6.
 
-        let num2 = 6;
+        // let num2 = 6;
 
 
 // 13. Create a variable called add and make it sum the vairables num1 and num2.
 
-        let add = num1 + num2;
+        // let add = num1 + num2;
 
 
 // 14. Create a variable called Num3 and make it equal to 2 and print the result to the console.
 
-         let Num3 = 2;
+        //  let Num3 = 2;
         // console.log(Num3);
 
 
 // 15. Create a variable called Num4 and make it equal to 5 and print the result to the console.
 
-        let Num4 =5;
-        console.log(Num4);
+        // let Num4 =5;
+        // console.log(Num4);
 
 
 // 16. Create a variable called totals and set it equal to the variables num3 - num4 and print the result to the console.
 
-        let totals = Num3 - Num4;
-        console.log(totals);
+        // let totals = Num3 - Num4;
+        // console.log(totals);
 
 
 // 17. Create a variable called mult and make it equal to num3 times num4 and print the result to the console.
 
-        let multi = Num3 * Num4;
-        console.log(multi);
+        // let multi = Num3 * Num4;
+        // console.log(multi);
 
 // 18. Create a variable called divideNums and make it equal to 6 divided by 2 and print the result to the console.
 
-        let divideNums = 6 / 2;
-        console.log(divideNums);
+        // let divideNums = 6 / 2;
+        // console.log(divideNums);
 
 // 19. Create an alert that says "Password is incorrect".
 
-         alert('Password is incorrect');
+        //  alert('Password is incorrect');
 
 // 20. Create a variable called newName and set it equal to the name of your choice. Change the innerHTML of the h1 tag to the name you created with the variable newName.
 
-        let newName ='Big Man';
-        document.getElementById('nameText').innerHTML= newName;
+        // let newName ='Big Man';
+        // document.getElementById('nameText').innerHTML= newName;
 
 
 

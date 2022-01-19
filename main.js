@@ -16,9 +16,12 @@
 // let firstName = 'My name is ';
 // let combine = firstName.concat('Vergil');
 // document.getElementById('first-name').innerHTML= 'Good Bye ' + it;
-let textColor = document.getElementById('first-name');
 
+let allGreen = document.getElementById('allGreen');
+    
 function letsClick() { 
-    textColor.classList.toggle('green');  
+    let newName ='Big Man';
+        document.getElementById('nameText').innerHTML= newName;
+    allGreen.classList.toggle('green');
  }
 
