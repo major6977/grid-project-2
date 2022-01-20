@@ -4,7 +4,7 @@
 
 #button:hover {
     cursor: pointer;
-    color: rgb(247, 16, 16);
+    color: black;
 }
 #button {
     font-size: 50px;
